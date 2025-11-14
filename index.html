@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talentos UC – Conecta Empresas e Estudantes</title>
+
+    <!-- Google Analytics (placeholder) -->
+    <!-- Substituir G-XXXXXXXXXX pelo ID real -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- Meta Pixel (placeholder) -->
+    <!-- Substituir 1234567890 pelo Pixel real -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1234567890');
+      fbq('track', 'PageView');
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background: #f8f9fb;
+            color: #222;
+        }
+        header {
+            padding: 40px 20px;
+            background: #2a4b8d;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        p.subtitle {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        h2 { margin-top: 0; }
+        label { font-weight: bold; display: block; margin-top: 20px; }
+        input, textarea, select {
+            width: 100%;
+            margin-top: 8px;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+        button {
+            margin-top: 20px;
+            padding: 14px 22px;
+            background: #2a4b8d;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover { background: #1f3870; }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Talentos UC</h1>
+    <p class="subtitle">Conectamos estudantes e empresas. Teste de interesse (Smoke Test)</p>
+</header>
+
+<div class="section">
+    <h2>Para Empresas</h2>
+    <p>Queremos perceber o interesse na nossa plataforma antes de a lançar. A sua opinião é essencial.</p>
+
+    <form>
+        <label>Estaria disposto(a) a participar na nossa plataforma?</label>
+        <select>
+            <option>Sim</option>
+            <option>Talvez</option>
+            <option>Não</option>
+        </select>
+
+        <label>Se respondeu “Não” ou “Talvez”, porquê?</label>
+        <textarea rows="3"></textarea>
+
+        <label>Acha que esta solução seria uma mais-valia para as empresas?</label>
+        <select>
+            <option>Sim</option>
+            <option>Talvez</option>
+            <option>Não</option>
+        </select>
+
+        <label>Assumindo que a plataforma teria 25% dos estudantes da área da Saúde, quanto estaria disposto(a) a pagar mensalmente?</label>
+        <select>
+            <option>Mais de 75€</option>
+            <option>51–75€</option>
+            <option>25–50€</option>
+            <option>Menos de 25€</option>
+            <option>Não pagaria</option>
+        </select>
+
+        <label>E se também recebesse os currículos dos estudantes?</label>
+        <select>
+            <option>Mais de 75€</option>
+            <option>51–75€</option>
+            <option>25–50€</option>
+            <option>Menos de 25€</option>
+            <option>Não pagaria</option>
+        </select>
+
+        <label>Que fatores influenciaram a sua decisão?</label>
+        <textarea rows="3"></textarea>
+
+        <label>Por quais funcionalidades estaria disposto(a) a pagar?</label>
+        <textarea rows="3"></textarea>
+
+        <label>Acha que o formato ideal é um website ou outro (reuniões, personalização, etc.)?</label>
+        <textarea rows="3"></textarea>
+
+        <label>Que competências procura num recém-licenciado?</label>
+        <textarea rows="3" placeholder="Ex.: técnicas, soft skills, línguas, experiência prática"></textarea>
+
+        <label>Alguma vez pagou por uma plataforma de recrutamento?</label>
+        <select>
+            <option>Sim</option>
+            <option>Não</option>
+        </select>
+
+        <button type="submit">Enviar Respostas</button>
+    </form>
+</div>
+
+<footer>
+    Talentos UC — Smoke Test | Universidade de Coimbra
+</footer>
+
+</body>
+</html>
